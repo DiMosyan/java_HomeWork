@@ -8,6 +8,10 @@ public class Test_l6 {
 
        animalsTest(dogs, -300, -7);
        animalsTest(cats, -150, -4);
+
+        System.out.println("Animals: " + Dog.animalsCount);
+        System.out.println("Dogs: " + Dog.dogsCount);
+        System.out.println("Cats: " + Cat.catsCount);
     }
 
     public static void animalsTest(Animal[] animals, int startRunDistance, int startSwimDistance) {
